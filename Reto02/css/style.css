@@ -49,6 +49,19 @@ main {
   height: 100%;
   opacity: 0.3;
 }
+section {
+  background-color: rgb(33, 29, 57);
+  width: 99%;
+  display: flex;
+  *flex-direction: row;
+  *flex-wrap: wrap;
+  flex-flow: wrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+section div {
+  box-sizing: border-box;
+}
 footer {
   width: auto;
   text-align: right;
