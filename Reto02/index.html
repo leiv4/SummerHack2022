@@ -2,17 +2,6 @@
 <html lang="en">
   <head>
     <link rel="icon" href="image/supranegro.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,292 +26,133 @@
   <body>
     <header>
       <nav>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="card">
-              <div id="logo">
-                <img src="image/after.png" class="img-fluid" alt="AFTER" />
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3"></div>
-          <div class="col-xs-1">
-            <div class="card">
-              <a
-                href="https://open.spotify.com/show/2D3oxf1I4JpuWxgVoKlC0O"
-                target="_blank"
-                ><img src="image/spotify.png" class="img-fluid" alt="Spotify"
-              /></a>
-            </div>
-          </div>
-          <div class="col-xs-1">
-            <div class="card">
-              <a href="https://youtube.com/suprapixel" target="_blank"
-                ><img src="image/youtube.png" class="img-fluid" alt="YouTube"
-              /></a>
-            </div>
-          </div>
-          <div class="col-xs-1">
-            <div class="card">
-              <a href="mailto:info@suprapixel.com" target="_blank"
-                ><img src="image/contacto.png" class="img-fluid" alt="E-mail"
-              /></a>
-            </div>
-          </div>
-        </div>
+        <a href="index.html"><img src="image/after.png" class="logo" alt="" /></a>
+        <ul class="rrss">
+          <li class="yt">
+            <a href="https://www.youtube.com/suprapixel" target="_blank"
+              ><img src="image/youtube.png" alt=""
+            /></a>
+          </li>
+          <li class="spotify">
+            <a
+              href="https://open.spotify.com/show/2D3oxf1I4JpuWxgVoKlC0O"
+              target="_blank"
+              ><img src="image/spotify.png" alt=""
+            /></a>
+          </li>
+          <li class="mail">
+            <a href="mailto:info@suprapixel.com" target="_blank"
+              ><img src="image/contacto.png" alt=""
+            /></a>
+          </li>
+        </ul>
       </nav>
     </header>
     <main>
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-          <div class="card">
-            <div class="card bg-dark text-white">
-              <img src="image/E061.jpg" class="card-img" alt="..." />
-              <div class="card-img-overlay">
-                <h5 class="card-title">Ahora sí se están poniendo las pilas</h5>
-                <p class="card-text">
-                  <small
-                    ><time itemprop="datePublished" datetime="14-05-2022"
-                      >14 de Mayo de 2022</time
-                    >
-                  </small>
-                </p>
-                <p class="card-text">
-                  <small
-                    ><time itemprop="timeRequired" datetime="PT37M"
-                      >37 min.</time
-                    ></small
-                  >
-                </p>
-                <audio
-                  src="audio/E061.m4a"
-                  class="play-main"
-                  preload="auto"
-                  controls
-                ></audio>
-              </div>
-              <div class="col-md-2"></div>
-              <div>
-                <hr />
-                <p itemprop="description">AFTER × E061 • S03E11</p>
-              </div>
-            </div>
-          </div>
+      <div class="container-main">
+        <div class="card-main">
+          <img src="image/E061.jpg" alt="" />
+          <h4>Ahora sí se están poniendo las pilas</h4>
+          <p>AFTER × E061 • S03E11</p>
+          <audio
+            src="audio/E061.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
       </div>
     </main>
     <section>
-      <div class="covers">
-        <div class="card bg-dark text-white">
-          <img src="image/E060.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Deberíamos comprar Twitter</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="06-05-2022"
-                  >06 de Mayo de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT35M">35 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E060.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E060</p>
+      <h2 class="title"><strong>Capítulos anteriores. </strong></h2>
+      <div class="container">
+        <div class="card">
+          <img src="image/E060.jpg" alt="" />
+          <h4>Deberíamos comprar Twitter</h4>
+          <p>E060</p>
+          <audio
+            src="audio/E060.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E059.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Nadie se espera al Programa de Reparación!</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="30-04-2022"
-                  >30 de Abril de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT26M">26 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E059.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E059</p>
+        <div class="card">
+          <img src="image/E059.jpg" alt="" />
+          <h4>Nadie se espera al Programa de Reparación!</h4>
+          <p>E059</p>
+          <audio
+            src="audio/E059.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E058.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">BONUS • Musk compra Twitter</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="29-04-2022"
-                  >29 de Abril de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT14M">14 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E058.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E058</p>
+        <div class="card">
+          <img src="image/E058.jpg" alt="" />
+          <h4>BONUS • Musk compra Twitter</h4>
+          <p>E058</p>
+          <audio
+            src="audio/E058.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E057.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">
-              Un evento cancelado, dos eventos cancelados, tres...
-            </h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="23-04-2022"
-                  >23 de Abril de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT35M">35 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E057.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E057</p>
+        <div class="card">
+          <img src="image/E057.jpg" alt="" />
+          <h4>Un evento cancelado, dos eventos cancelados, tres...</h4>
+          <p>E057</p>
+          <audio
+            src="audio/E057.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E056.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Oh yeah, we back (again)</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="09-04-2022"
-                  >9 de Abril de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT30M">30 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E056.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E056</p>
+        <div class="card">
+          <img src="image/E056.jpg" alt="" />
+          <h4>Oh yeah, we back (again)</h4>
+          <p>E056</p>
+          <audio
+            src="audio/E056.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E055.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Reivindicación del G4 Cube</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="11-03-2022"
-                  >11 de Marzo de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT28M">28 min.</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E055.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E055</p>
+        <div class="card">
+          <img src="image/E055.jpg" alt="" />
+          <h4>Reivindicación del G4 Cube</h4>
+          <p>E055</p>
+          <audio
+            src="audio/E055.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E054.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">Apple Strikes Back</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="04-03-2022"
-                  >4 de Marzo de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT33M">33 minutes</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E054.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E054</p>
+        <div class="card">
+          <img src="image/E054.jpg" alt="" />
+          <h4>Apple Strikes Back</h4>
+          <p>E054</p>
+          <audio
+            src="audio/E054.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
-        <div class="card bg-dark text-white">
-          <img src="image/E053.jpg" class="card-img-cover" alt="" />
-          <div class="card-img-overlay">
-            <h5 class="card-title">No era por ahí</h5>
-            <p class="card-text">
-              <small>
-                <time itemprop="datePublished" datetime="19-02-2022"
-                  >19 de Febrero de 2022</time
-                >
-              </small>
-            </p>
-            <p class="card-text">
-              <small>
-                <time itemprop="timeRequired" datetime="PT33M">33 minutes</time>
-              </small>
-            </p>
-            <audio
-              src="audio/E053.m4a"
-              class="play-main"
-              preload="auto"
-              controls
-            ></audio>
-          </div>
-          <hr />
-          <p itemprop="description">AFTER × E053</p>
+        <div class="card">
+          <img src="image/E053.jpg" alt="" />
+          <h4>No era por ahí</h4>
+          <p>E053</p>
+          <audio
+            src="audio/E053.m4a"
+            class="play-main"
+            preload="auto"
+            controls
+          ></audio>
         </div>
       </div>
     </section>
